@@ -24,4 +24,12 @@ public class BaseEvent {
 	public void setDataIntVal(int dataIntVal) {
 		this.dataIntVal = dataIntVal;
 	}
+
+	@Override
+	public String toString() {
+		return "BaseEvent [eventID=" + eventID + ", dataIntVal=" + dataIntVal
+				+ "]";
+	}
+	
+	
 }
